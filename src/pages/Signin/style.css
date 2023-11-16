@@ -1,0 +1,46 @@
+.ul {
+    background-color: #e6e7e8;
+    padding: 10px 0;
+    margin: 30px 0 20px 0;
+}
+
+.ul li{
+    margin: 10px 0;
+    padding: 10px 30px 10px 30px;
+}
+
+.ul li:hover{
+    background-color: gainsboro;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    gap: 0px;
+}
+
+.btn-primary{
+    padding: 16px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #046ee5;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.logo-login{
+    height: 70px;
+}

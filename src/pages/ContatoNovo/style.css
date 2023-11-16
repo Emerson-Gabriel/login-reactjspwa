@@ -1,0 +1,16 @@
+form{
+    margin: 10px 0;
+}
+
+.errorForm{
+    color: red;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
