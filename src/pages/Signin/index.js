@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import * as C from "./styles";
@@ -38,11 +38,6 @@ const Signin = () => {
             setLoading(false);
         }
     };
-
-    useEffect(() => {
-        setEmail('emerson@sygmasistemas.com.br');
-        setSenha('iyp14de6fiaa');
-    }, []);
 
     return (
         <div className="container">
